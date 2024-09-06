@@ -1,6 +1,5 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -10,6 +9,7 @@ const Header = () => {
         display: "flex",
         justifyContent: "space-between",
         padding: "0.8rem 6rem",
+        flexWrap: "wrap",
       }}
     >
       <Typography
